@@ -23,8 +23,12 @@ compruebe que dicha ruta es correcta e inténtelo de nuevo.
 *Después de abrir de nuevo la solución y clic derecho sobre el proyecto WebApi y
 seleccionar > Administrar Paquetes NuGet (Management NuGet Packages...)
 
-*En el explorador Examinar (browser) buscar los siguientes paquetes, desinstalarlos y volver a instalar
-la versión para este proyecto es 3.1.30 y con esto ya debería solucionarse el error.
+*En el explorador Examinar (browser) buscar los siguientes paquetes, desinstalarlos y volver a instalarlos
+con la versión de este proyecto 3.1.30 y con esto ya debería solucionarse el error.
+
+Paquetes a desintalar e instalar con la versión 3.1.30:
+-> Microsoft.EntityFrameworkCore.SqlServer
+-> Microsoft.EntityFrameworkCore.Tools
 
 *Volver a ejecutar el comando del paso 2.
 
